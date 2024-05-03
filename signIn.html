@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3HWY Shopping</title>
+<link rel="icon" class="icon" href="imgesToShop/logo 1.png" >
+<link rel="stylesheet" href="signIn.css">
+</head>
+<body>
+  
+   <form action="index.html" target="_blank" name="myform" onsubmit="return test()"><div class="form">
+    <br>
+    <h1>login</h1>
+      <label for="name"> Name :</label>
+      <input type="text" id="name" placeholder="name"name="fn" required><br>
+      <label for="email">email :</label>
+      <input type="email" id="email" placeholder=" enter email "name="em" required><br>
+      <label for="pass">password :</label>
+      <input type="password" id="pass" placeholder=" enter password" name="pss"  required><br>
+      
+      
+     
+      <input type="reset" value="reset" class="reset">
+      <input type="submit" class="submit" value="login">
+
+
+      <button >
+         <a href="SignUp.html">sign up</a>
+      </button>
+
+
+   </div>
+   <script>
+       function test(){
+                var arr = ["Wessam","Noha","Nayra","Mariam","Yasmeen"];
+                var pass = ["wessam123#","noha123#","nayra123#","mariam123#","yasmeen123#"];
+                var name = document.forms["myform"]["fn"].value;
+                var pa = document.forms["myform"]["pss"].value;
+                for(var i=0; i<arr.length; i++){
+                    if((name == arr[i])&&(pa = pass[i]))
+                    return true;
+                    else if((name == " ") || (pa == " ")){
+                        alert("error!!");
+                    }
+                }
+                return false;
+            }
+
+   </script>
+   </form>
+   </body>
+   </html>
