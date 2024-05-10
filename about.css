@@ -66,9 +66,9 @@
  #hero{
     background-image: url(imgesToShop/logo.jpg);
     height: 600px;
-    width: 100%;
-    /* background-size: cover; */
-    background-position: top 25% right 50% ;
+    /* width: 100%; */
+    background-size: cover;
+    background-position: top 60% right 50% ;
     padding: 0 80px;
     display: flex ;
     flex-direction: column;

@@ -67,8 +67,8 @@ body{
    /* background-image: url(imgesToShop/logo.jpg); */
    height: 600px;
    width: 100%;
-   /* background-size: cover; */
-   background-position: top 25% right 50% ;
+   background-size: cover;
+   background-position: top 40% right 50% ;
    padding: 0 80px;
    display: flex ;
    flex-direction: column;

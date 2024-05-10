@@ -63,8 +63,8 @@ body{
    background-image: url(imgesToShop/bk1.jpeg);
    height: 600px;
    width: 100%;
-   /* background-size: cover; */
-   background-position: top 25% right 0;
+   background-size: cover;
+   background-position: top 50% right 0;
    padding: 0 80px;
    display: flex ;
    flex-direction: column;

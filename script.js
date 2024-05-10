@@ -1,15 +1,15 @@
-function test(){
-       if((myform.ps.value)!=myform.pss.value){
-         alert("error!! ,you must enter the same password.");
-         return false;
-      }
-   if(myform.ps.value.length<8)
-   {
-      alert("password must be greater than 8 ");
-      return false;
-   }
+// function test(){
+//       //  if((myform.ps.value)!=myform.pss.value){
+//       //    alert("error!! ,you must enter the same password.");
+//       //    return false;
+//       // }
+//    if(myform.ps.value.length<8)
+//    {
+//       alert("password must be greater than 8 ");
+//       return false;
+//    }
 
-}
+// }
 
 
 

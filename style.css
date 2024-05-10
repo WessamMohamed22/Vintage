@@ -167,9 +167,9 @@ button.white{
 #hero{
     background-image: url(imgesToShop/bk6.jpeg);
     height: 600px;
-    width: 100%;
-    /* background-size: cover; */
-    background-position: top 25% right 0;
+    /* width: 100%; */
+    background-size: cover;
+    background-position: top 45% right 0;
     padding: 0 80px;
     display: flex ;
     flex-direction: column;
